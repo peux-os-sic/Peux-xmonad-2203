@@ -1,0 +1,25 @@
+#!/bin/bash
+
+playing=""
+pause=""
+player=`playerctl metadata --format '{{ playerName }}'`
+spotify=""
+
+
+if [[ $(playerctl status) == "Playing" ]]
+then
+    
+    #player check
+    if [[ $player == "spotify" ]]
+    then 
+        echo "$spotify "
+    else
+        echo "$playing"
+    fi
+
+elif [[ $(playerctl status) == "Paused" ]]
+then 
+    echo "$pause"
+else
+    echo ""
+fi

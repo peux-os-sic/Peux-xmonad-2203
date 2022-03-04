@@ -1,0 +1,5 @@
+Files,pcmanfm-qt,org.gnome.Nautilus
+Terminal,alacritty,utilities-terminal
+#Text Editor,gedit,org.gnome.gedit
+^sep()
+

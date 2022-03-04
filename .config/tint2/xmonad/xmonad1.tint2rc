@@ -1,0 +1,471 @@
+# See https://gitlab.com/o9000/tint2/wikis/Configure for
+# full documentation of the configuration options.
+#-------------------------------------
+# Gradients
+# Gradient 1
+gradient = vertical
+start_color = #f48ee8 100
+end_color = #fa74b2 100
+
+# Gradient 2
+gradient = vertical
+start_color = #f48ee8 82
+end_color = #fa74b2 82
+
+#-------------------------------------
+# Backgrounds
+# Background 1: Active task
+rounded = 8
+border_width = 0
+border_sides = 
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #f9f9f9 100
+border_color = #f9f9f9 100
+background_color_hover = #f9f9f9 78
+border_color_hover = #f9f9f9 78
+background_color_pressed = #f9f9f9 100
+border_color_pressed = #f9f9f9 100
+
+# Background 2: Default task
+rounded = 8
+border_width = 0
+border_sides = 
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #4c566a 100
+border_color = #4c566a 100
+gradient_id = 0
+background_color_hover = #ededed 82
+border_color_hover = #ededed 82
+background_color_pressed = #4c566a 100
+border_color_pressed = #4c566a 100
+
+# Background 3: Active desktop name, Inactive desktop name, Urgent task
+rounded = 8
+border_width = 0
+border_sides = 
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #f9f9f9 100
+border_color = #f9f9f9 40
+gradient_id = 0
+background_color_hover = #f9f9f9 88
+border_color_hover = #f9f9f9 40
+background_color_pressed = #f9f9f9 100
+border_color_pressed = #f9f9f9 78
+
+# Background 4: Active taskbar, Clock, Inactive taskbar, Panel
+rounded = 15
+border_width = 0
+border_sides = 
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #121212 100
+border_color = #000000 0
+background_color_hover = #000000 0
+border_color_hover = #000000 0
+background_color_pressed = #000000 0
+border_color_pressed = #000000 0
+
+# Background 5: 
+rounded = 6
+border_width = 0
+border_sides = 
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #f9f9f9 0
+border_color = #a1a8b9 0
+gradient_id = 1
+background_color_hover = #63c5ea 0
+border_color_hover = #a1a8b9 0
+gradient_id_hover = 2
+background_color_pressed = #63c5ea 0
+border_color_pressed = #a1a8b9 0
+gradient_id_pressed = 1
+
+# Background 6: Button, Executor
+rounded = 12
+border_width = 0
+border_sides = 
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #272727 100
+border_color = #272727 100
+gradient_id = 0
+background_color_hover = #434c5e 100
+border_color_hover = #434c5e 100
+background_color_pressed = #373e4d 100
+border_color_pressed = #373e4d 100
+gradient_id_pressed = 0
+
+# Background 7: Tooltip
+rounded = 0
+border_width = 0
+border_sides = 
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #3b4252 100
+border_color = #000000 0
+background_color_hover = #000000 0
+border_color_hover = #000000 0
+background_color_pressed = #000000 0
+border_color_pressed = #000000 0
+
+# Background 8: Panel [ Alternative ]
+rounded = 14
+border_width = 0
+border_sides = 
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #171717 0
+border_color = #a1a8b9 0
+background_color_hover = #434c5e 100
+border_color_hover = #a1a8b9 0
+background_color_pressed = #434c5e 100
+border_color_pressed = #a1a8b9 0
+
+#-------------------------------------
+# Panel
+panel_items = PPPPP:TECPEESP
+panel_size = 85% 40
+panel_margin = 0 8
+panel_padding = 5 5
+panel_background_id = 4
+wm_menu = 1
+panel_dock = 0
+panel_pivot_struts = 0
+panel_position = top center horizontal
+panel_layer = normal
+panel_monitor = all
+panel_shrink = 0
+autohide = 0
+autohide_show_timeout = 0.3
+autohide_hide_timeout = 1.5
+autohide_height = 6
+strut_policy = follow_size
+panel_window_name = tint2
+disable_transparency = 0
+mouse_effects = 1
+font_shadow = 0
+mouse_hover_icon_asb = 100 0 10
+mouse_pressed_icon_asb = 82 6 0
+scale_relative_to_dpi = 0
+scale_relative_to_screen_height = 0
+
+#-------------------------------------
+# Taskbar
+taskbar_mode = single_desktop
+taskbar_hide_if_empty = 0
+taskbar_padding = 5 7 8
+taskbar_background_id = 8
+taskbar_active_background_id = 8
+taskbar_name = 1
+taskbar_hide_inactive_tasks = 0
+taskbar_hide_different_monitor = 1
+taskbar_hide_different_desktop = 1
+taskbar_always_show_all_desktop_tasks = 1
+taskbar_name_padding = 6 6
+taskbar_name_background_id = 3
+taskbar_name_active_background_id = 3
+taskbar_name_font = Cantarell Bold 9
+taskbar_name_font_color = #3b4252 100
+taskbar_name_active_font_color = #3b4252 100
+taskbar_distribute_size = 1
+taskbar_sort_order = title
+task_align = left
+
+#-------------------------------------
+# Task
+task_text = 1
+task_icon = 0
+task_centered = 1
+urgent_nb_of_blink = 3
+task_maximum_size = 17 17
+task_padding = 0 0 0
+task_font = Sans 0
+task_tooltip = 1
+task_thumbnail = 0
+task_thumbnail_size = 210
+task_background_id = 2
+task_active_background_id = 1
+task_urgent_background_id = 3
+mouse_left = toggle_iconify
+mouse_middle = none
+mouse_right = close
+mouse_scroll_up = next_task
+mouse_scroll_down = prev_task
+
+#-------------------------------------
+# System tray (notification area)
+systray_padding = 8 0 10
+systray_background_id = 6
+systray_sort = ascending
+systray_icon_size = 16
+systray_icon_asb = 100 0 10
+systray_monitor = 1
+systray_name_filter = 
+
+#-------------------------------------
+# Clock
+time1_format = %H : %M
+time2_format = 
+time1_font = Cantarell Bold 12
+time1_timezone = 
+time2_timezone = 
+time2_font = Cantarell Bold 10
+clock_font_color = #ff4444 100
+clock_padding = 3 3
+clock_background_id = 6
+clock_tooltip = %A - %B %d, %Y
+clock_tooltip_timezone = 
+clock_lclick_command = gsimplecal
+clock_rclick_command = gsimplecal
+clock_mclick_command = 
+clock_uwheel_command = 
+clock_dwheel_command =
+
+#-------------------------------------
+# Separator 1
+separator = new
+separator_background_id = 0
+separator_color = #777777 0
+separator_style = empty
+separator_size = 3
+separator_padding = 0 0
+
+
+#-------------------------------------
+# Separator 1
+separator = new
+separator_background_id = 0
+separator_color = #777777 0
+separator_style = empty
+separator_size = 3
+separator_padding = 0 0
+
+#-------------------------------------
+# Separator 2
+separator = new
+separator_background_id = 0
+separator_color = #777777 100
+separator_style = empty
+separator_size = 3
+separator_padding = 0 0
+
+#-------------------------------------
+# Separator 3
+separator = new
+separator_background_id = 0
+separator_color = #777777 0
+separator_style = empty
+separator_size = 3
+separator_padding = 0 0
+
+#-------------------------------------
+# Separator 4
+separator = new
+separator_background_id = 0
+separator_color = #777777 0
+separator_style = empty
+separator_size = 3
+separator_padding = 0 0
+
+#-------------------------------------
+# Separator 5
+separator = new
+separator_background_id = 0
+separator_color = #777777 0
+separator_style = empty
+separator_size = 3
+separator_padding = 0 0
+
+#-------------------------------------
+# Button 1
+button = new
+#button_icon = ~/.config/tint2/icons/launcher.png
+button_text =
+button_lclick_command = jgmenu_run &
+button_rclick_command =
+button_mclick_command =
+button_uwheel_command =
+button_dwheel_command =
+button_font = Material 17
+button_font_color = #bb8833 100
+button_padding = 3
+button_background_id = 
+button_centered = 0
+button_max_icon_size = 20
+button_tooltip = Menu
+
+#-------------------------------------
+# Button 2
+button = new
+#button_icon = ~/.config/tint2/icons/code.png
+button_text =
+button_lclick_command = alacritty &
+button_rclick_command =
+button_mclick_command =
+button_uwheel_command =
+button_dwheel_command =
+button_font = Material 17
+button_font_color = #777700 100
+button_padding = 3
+button_background_id = 
+button_centered = 1
+button_max_icon_size = 20
+button_tooltip = Terminal
+
+#-------------------------------------
+# Button 3
+button = new
+#button_icon = ~/.config/tint2/icons/folder.png
+button_text =
+button_lclick_command = pcmanfm-qt &
+button_rclick_command =
+button_mclick_command =
+button_uwheel_command =
+button_dwheel_command =
+button_font = Material 17
+button_font_color = #cc4433 100
+button_padding = 3
+button_background_id =
+button_centered = 1
+button_max_icon_size = 20
+button_tooltip = File Manager
+
+
+
+#-------------------------------------
+# Button 4
+button = new
+#button_icon = ~/.config/tint2/icons/firefox.png
+button_text =
+button_lclick_command = firefox &
+button_rclick_command =
+button_mclick_command =
+button_uwheel_command =
+button_dwheel_command =
+button_font = Material 17
+button_font_color = #446699 100
+button_padding = 3
+button_background_id = 
+button_centered = 0
+button_max_icon_size = 20
+button_tooltip = Firefox
+
+#-------------------------------------
+# Button 5
+button = new
+#button_icon = ~/.config/tint2/icons/bauh.png
+button_text =
+button_lclick_command = bauh-tray &
+button_rclick_command =
+button_mclick_command =
+button_uwheel_command =
+button_dwheel_command =
+button_font = Material 17
+button_font_color = #9901aa 100
+button_padding = 3
+button_background_id = 
+button_centered = 1
+button_max_icon_size = 20
+button_tooltip = Software Center
+
+
+#-------------------------------------
+# Button 7
+button = new
+#button_icon = ~/.config/tint2/icons/wallpaper.png
+button_text =
+button_lclick_command = ~/.config/system_scripts/background-changer &
+button_rclick_command =
+button_mclick_command =
+button_uwheel_command =
+button_dwheel_command =
+button_font = Material 16
+button_font_color = #0077aa 100
+button_padding = 4 4
+button_background_id = 6
+button_centered = 1
+button_max_icon_size = 16
+
+
+#-------------------------------------
+# Button 7
+button = new
+#button_icon = ~/.config/tint2/icons/logout.png
+button_text =
+button_lclick_command = bash ~/.config/rofi/leave/powermenu.sh &
+button_rclick_command =
+button_mclick_command =
+button_uwheel_command =
+button_dwheel_command =
+button_font = Material 18
+button_font_color = #ff1100 100
+button_padding = 4 4
+button_background_id = 6
+button_centered = 1
+button_max_icon_size = 21
+button_tooltip = Exit
+
+#-------------------------------------
+# Executor
+execp = new
+execp_command = bash ~/.config/tint2/scripts/updates
+execp_tooltip = 
+execp_padding = 5
+execp_centered = 1
+execp_background_id = 6
+execp_font = Material 15
+execp_font_color = #f36ff0 100
+execp_interval = 30
+execp_lclick_command = alacritty -e yay -Syu
+execp_rclick_command = 
+execp_mclick_command = 
+execp_uwheel_command = 
+execp_dwheel_command = 
+
+#-------------------------------------
+# Executor
+execp = new
+execp_command = bash ~/.config/tint2/scripts/media-control
+execp_tooltip = 
+execp_padding = 5
+execp_centered = 1
+execp_background_id = 6
+execp_font = Material 15
+execp_font_color = #CC5500 100
+execp_interval = 2
+execp_lclick_command = volume pause
+execp_rclick_command = playerctl stop
+execp_mclick_command = 
+execp_uwheel_command = volume next
+execp_dwheel_command = volume prev
+
+#-------------------------------------
+# Executor
+execp = new
+execp_command = bash ~/.config/tint2/scripts/volume-status
+execp_tooltip = 
+execp_padding = 5
+execp_centered = 1
+execp_background_id = 6
+execp_font = Material 15
+execp_font_color = #CC5500 100
+execp_interval = 2
+execp_lclick_command = volume up
+execp_rclick_command = volume down
+execp_mclick_command = 
+execp_uwheel_command = volume up
+execp_dwheel_command = volume down
+
+
+#-------------------------------------
+# Tooltip
+tooltip_show_timeout = 0
+tooltip_hide_timeout = 0
+tooltip_padding = 2 2
+tooltip_background_id = 12
+tooltip_font_color = #d8d8d8 100
+tooltip_font = Cantarell 10

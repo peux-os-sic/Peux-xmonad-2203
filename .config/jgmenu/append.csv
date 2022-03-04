@@ -1,0 +1,7 @@
+^sep()
+Power Menu,bash ~/.config/rofi/leave/powermenu.sh,system-shutdown
+^tag(jgmenu)
+jgmenu,gedit ~/.config/jgmenu/jgmenurc,text-plain
+append,gedit ~/.config/jgmenu/append.csv,text-plain
+preppend,gedit ~/.config/jgmenu/prepend.csv,text-plain
+

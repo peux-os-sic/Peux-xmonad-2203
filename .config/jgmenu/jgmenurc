@@ -1,0 +1,60 @@
+stay_alive           = 1
+csv_cmd              = pmenu
+csv_no_dirs 	     = 0
+csv_single_window    = 0
+tint2_look           = 0
+#at_pointer           = 0
+#terminal_exec        = xfce4-terminal
+#terminal_args        = -e
+columns	     = 1
+
+menu_width           = 200
+menu_margin_x       = 25
+menu_margin_y       = 50
+menu_padding_top     = 8
+menu_padding_right   = 3
+menu_padding_bottom  = 8
+menu_padding_left    = 3
+menu_radius          = 1
+menu_border          = 0
+menu_halign          = left
+menu_valign          = top
+
+sub_spacing	     = -1
+sub_padding_top      = 8
+sub_padding_right    = 5
+sub_padding_bottom   = 8
+sub_padding_left     = 5
+
+sub_hover_action     = 1
+hover_delay	     = 150
+
+item_margin_x        = 0
+item_margin_y        = 0
+item_height          = 28
+item_padding_x       = 14
+item_radius          = 0
+item_border          = 0
+sep_height           = 0
+
+#font                 = 
+icon_size            = 0
+#icon_text_spacing    = 14
+#arrow_string 	     = 
+#arrow_width 	     = 
+
+color_menu_bg        = #171717 90
+color_menu_border    = #dfdfdf 10
+color_norm_bg        = #d5cfc5 0
+color_norm_fg        = #dfdfdf 70
+
+#qogir
+#color_sel_bg         = #5294E2 80
+#color_sel_fg         = #ffffff 80
+
+#gray
+color_sel_bg         = #E6E7E8 80
+color_sel_fg         = #202020 80
+
+color_sep_fg         = #000000 10
+
